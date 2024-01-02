@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="./TOP-LOGO.png">
+
+  <title>Hugo Sales Fotografia</title>
+
+  <style>
+    /* 0-GLOBAL-STYLE-START */
+      body{
+        margin: 0px;
+        font-family: "Chau Philomene One", sans-serif;
+        color: #4b4b4b;
+      }
+      h1, h2, h3, p {
+        margin: 0px;
+      }
+      ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+      }
+      img {
+        max-width: 100%;
+        /* display: block; */
+      }
+    /* 0-GLOBAL-STYLE-END */
+
+    /* 1-HEADER-STYLE-START */
+      .img-logo{
+        width: 150px;
+      }
+      .header {
+        max-width: 1200px;
+        padding: 40px 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+      }
+      .header-menu {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .header-menu a{
+
+      }
+    /* 1-HEADER-STYLE-END */
+
+    /* 2-ABOUT-STYLE-START */
+      .about-info {
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;
+        padding: 20px 40px;
+        margin: 0px auto;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    /* 2-ABOUT-STYLE-END */
+
+    /* 3-JOBS-STYLE-START */
+      .jobs-info {
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;
+        padding: 20px 40px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: end; /* Adicionado para alinhar à direita */
+      }
+      .threecollumns {
+        padding: 50px 0;
+        text-align: center;
+        margin-bottom: 100px;
+      }
+      .threecollumns-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .threecollumns-subtitle {
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+      .cardcollumn {
+        border: 1px solid #ccc;
+        padding: 20px;
+        text-align: center;
+        margin: 0 10px;
+        display: inline-block;
+        max-width: 100vw;
+      }
+      .cardcollumn img {
+        max-width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      }
+      .cardcollumn h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .cardcollumn p {
+          font-size: 16px;
+      }
+    /* 3-JOBS-STYLE-END */
+
+    /* 4-DEPOSITIONS-STYLE-START */
+      #depositions {
+        margin-bottom: 100px;
+      }
+      .depositions-info{
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;
+        padding: 20px 40px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    /* 4-DEPOSITIONS-STYLE-END */
+
+    /* 5-CONTACT-STYLE-START */
+      .contato-info {
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;
+        padding: 20px 40px;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: end; /* Adicionado para alinhar à direita */
+      }
+      .contact-section {
+            padding: 50px 0;
+            text-align: center;
+      }
+      .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+      }
+      .form-group {
+            margin-bottom: 20px;
+      }
+    /* 5-CONTACT-STYLE-END */
+
+    /* 6-FOOTER-STYLE-START */
+      .footer {
+        display: flex;
+        background: #414141;
+        height: 60px;
+        align-items: center;
+      }
+      .footer p {
+        flex: 1;
+        text-align: center;
+        font-size: 1.25em;
+        color: #ccc;
+      }
+    /* 6-FOOTER-STYLE-END */
+  </style>
+</head>
+
+<body>
+  <!-- 1-HEADER-MODULE-START -->
+  <header class="header">
+    <img class="img-logo" src="./LOGO.png" alt="Company Logo">
+    <nav>
+      <ul class="header-menu">
+        <li><a>Sobre</a></li>
+        <li><a>Ensaios</a></li>
+        <li><a>Depoimentos</a></li>
+        <li><a>Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- 1-HEADER-MODULE-END -->
+
+  <!-- 2-ABOUT-MODULE-START -->
+  <main id="about" class="">
+    <div class="about-info">
+      <h2>SOBRE</h2>
+        <h1>Bem-vindo ao mundo visual de Hugo Sales, um talentoso fotógrafo cuja paixão é capturar momentos únicos e transformá-los em imagens que contam histórias emocionantes.</h1>
+          <p>
+            Conheça o artista por trás das lentes. Hugo Sales é mais do que um fotógrafo; ele é um contador de histórias visuais. Sua abordagem criativa e sensibilidade artística são evidentes em cada foto que captura.
+          </p>
+          <p>
+            A assinatura de Hugo Sales é a fusão de técnica excepcional e criatividade sem limites. Seu estilo distintivo se manifesta em imagens que capturam a essência do momento, revelando emoções autênticas e detalhes delicados.
+          </p>
+        </div>
+  </main>
+  <!-- 2-ABOUT-MODULE-END -->
+
+  <!-- 3-JOBS-MODULE-START -->
+  <section id="jobs" class="">
+    <div class="jobs-info">
+      <h2>ENSAIOS</h2>
+      <span>
+        Descubra as várias facetas da fotografia através das galerias temáticas de Hugo Sales. Desde eventos especiais até ensaios conceituais, cada galeria é uma jornada visual que cativa e inspira
+      </span>
+      <p>
+        Explore a diversidade do trabalho de Hugo Sales. De retratos íntimos a paisagens impressionantes, cada imagem é uma expressão cuidadosamente elaborada de sua visão única. Navegue pelo portfólio e mergulhe em um mundo visual que transcende o comum.
+      </p>
+    </div>
+
+    <div class="threecollumns">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="cardcollumn">
+                      <img src="https://placehold.co/100x100" alt="Serviço 1">
+                      <h3>Ensaio 1</h3>
+                      <p>Lindo ensaio de Pré-Wedding.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="cardcollumn">
+                      <img src="https://placehold.co/100x100" alt="Serviço 2">
+                      <h3>Ensaio 2</h3>
+                      <p>Fotos de rua em uma representação urbana.</p>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="cardcollumn">
+                      <img src="https://placehold.co/100x100" alt="Serviço 3">
+                      <h3>Ensaio 3</h3>
+                      <p>Um registro do maior evento geek do ano.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- 3-JOBS-MODULE-END -->
+
+  <!-- 4-DEPOSITIONS-MODULE-START -->
+  <section id="depositions" class="carousel-section">
+    <div class="depositions-info">
+      <h2 >DEPOIMENTOS</h2>
+      <span>Saiba o que clientes e colaboradores têm a dizer sobre trabalhar com Hugo Sales. Suas habilidades técnicas, profissionalismo e capacidade de transformar momentos comuns em lembranças extraordinárias são elogiados por todos que tiveram a oportunidade de colaborar com ele.</span>
+      <p>
+        Testemunhe a experiência de outros que compartilharam momentos inesquecíveis diante da lente de Hugo Sales. Clientes elogiam não apenas suas habilidades técnicas exímias, mas também sua capacidade singular de criar um ambiente descontraído, resultando em fotografias genuínas e memoráveis que transcendem o tempo. Descubra como Hugo transforma cada sessão em uma colaboração única e personalizada, deixando um legado visual que perdura.
+      </p>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="">
+                    <img src="https://placehold.co/1200x250" alt="Imagem 1">
+                    <div class="carousel-caption">
+                        <h3>NOME CLIENTE</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="">
+                    <img src="https://placehold.co/1200x250" alt="Imagem 2">
+                    <div class="carousel-caption">
+                        <h3>NOME CLIENTE</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="carousel-item">
+                  <a href="">
+                    <img src="https://placehold.co/1200x250" alt="Imagem 3">
+                    <div class="carousel-caption">
+                        <h3>NOME CLIENTE</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+  </section>
+  <!-- 4-DEPOSITIONS-MODULE-END -->
+
+  <!-- 5-CONTACT-MODULE-START -->
+  <section  id="contact" class="contato js-scroll">
+    <div class="contato-info">
+      <h2>CONTATO</h2>
+      <span>
+        Estamos ansiosos para ouvir sobre suas ideias e necessidades fotográficas. Entre em contato com Hugo Sales para iniciar uma conversa sobre como ele pode transformar seus momentos especiais em obras de arte duradouras. Sua dedicação em compreender as expectativas dos clientes garante que cada projeto seja abordado com a atenção e a paixão que merece. Conecte-se agora para dar o primeiro passo em direção a uma experiência fotográfica única e memorável.
+      </span>
+      <p>
+        Interessado em colaborar ou agendar uma sessão com Hugo Sales? Entre em contato para discutir suas necessidades específicas e descubra como ele pode dar vida à sua visão através da fotografia.
+      </p>
+      <div class="contact-form">
+        <form action="#" method="post">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Telefone">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+        <div class="contato-redes">
+          <a href="https://www.instagram.com/hugosalesfotografias/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5511912899496"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+  </section>
+  <!-- 5-CONTACT-MODULE-END -->
+
+  <!-- 6-FOOTER-STYLE-START -->
+  <footer class="rodape" >
+    <div class="footer">
+      <p>
+        Hugo Sales Fotografia © Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+  <!-- 6-FOOTER-STYLE-END -->
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
